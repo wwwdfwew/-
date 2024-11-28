@@ -1,10 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\C\u4EE3\u7801\\C\u4EE3\u7801\\",
+  "WorkspaceRootPath": "D:\\C\u4EE3\u7801\\github\u4ED3\u5E93\\-\\C\u4EE3\u7801\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBD83DC6-F947-42F4-98A3-2A4FACDC7DE8}|C\u4EE3\u7801\\C\u4EE3\u7801.vcxproj|D:\\C\u4EE3\u7801\\C\u4EE3\u7801\\C\u4EE3\u7801\\\u4EE3\u7801.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DBD83DC6-F947-42F4-98A3-2A4FACDC7DE8}|C\u4EE3\u7801\\C\u4EE3\u7801.vcxproj|solutionrelative:C\u4EE3\u7801\\\u4EE3\u7801.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u4EE3\u7801\\C\u4EE3\u7801\\C\u4EE3\u7801\\\u4EE3\u7801.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,14 +20,12 @@
               "DocumentIndex": 0,
               "Title": "\u4EE3\u7801.c",
               "DocumentMoniker": "D:\\C\u4EE3\u7801\\C\u4EE3\u7801\\C\u4EE3\u7801\\\u4EE3\u7801.c",
-              "RelativeDocumentMoniker": "C\u4EE3\u7801\\\u4EE3\u7801.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\C\u4EE3\u7801\\C\u4EE3\u7801\\\u4EE3\u7801.c",
               "ToolTip": "D:\\C\u4EE3\u7801\\C\u4EE3\u7801\\C\u4EE3\u7801\\\u4EE3\u7801.c",
-              "RelativeToolTip": "C\u4EE3\u7801\\\u4EE3\u7801.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\C\u4EE3\u7801\\C\u4EE3\u7801\\\u4EE3\u7801.c",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-11-23T06:12:42.334Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
