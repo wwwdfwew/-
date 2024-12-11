@@ -91,26 +91,26 @@
 //}
 
 //------------------------------------------模拟实现strcat函数：
-//char* my_strcat(char* arr1, char* arr2)
-//{
-//	char* ret = arr1;
-//	while (*arr2)
-//	{
-//		*arr1 = *arr2;
-//		arr1++;
-//		arr2++;
-//	}
-//	*arr1 = '\0';
-//	return ret;
-//}
-//int main()
-//{
-//	char arr1[20] = { "abcdefg" };
-//	char arr2[] = { "hijk" };
-//	char* ret = my_strcat(arr1, arr2);
-//	printf("%s", ret);
-//	return 0;
-//}
+////char* my_strcat(char* arr1, char* arr2)
+////{
+////	char* ret = arr1;
+////	while (*arr2)
+////	{
+////		*arr1 = *arr2;
+////		arr1++;
+////		arr2++;
+////	}
+////	*arr1 = '\0';
+////	return ret;
+////}
+////int main()
+////{
+////	char arr1[20] = { "abcdefg" };
+////	char arr2[] = { "hijk" };
+////	char* ret = my_strcat(arr1, arr2);
+////	printf("%s", ret);
+////	return 0;
+////}
 
 
 //--------------------------------------模拟实现strncpy函数：
@@ -196,3 +196,45 @@
 //		printf("arr1=arr2");
 //	return 0;
 //}
+#include<string.h>
+char* my_strcpy(char* str1, const char* str2)
+{
+	char* ret = str1;
+	while (*str1)
+		str1++;
+	while (*str2)
+	{
+		*str1 = *str2;
+		str1++;
+		str2++;
+	}
+	return ret;
+}
+int main()
+{
+	char arr1[20] = { "abcdefg" };
+	char arr2[] = { "hijklmn" };
+	char* ret = my_strcpy(arr1, arr2);
+	printf("%s\n", ret);
+	return 0;
+}
+char* my_strcat(char* arr1, char* arr2)
+{
+	char* ret = arr1;
+	while (*arr2)
+	{
+		*arr1 = *arr2;
+		arr1++;
+		arr2++;
+	}
+	*arr1 = '\0';
+	return ret;
+}
+int main()
+{
+	char arr1[20] = { "abcdefg" };
+	char arr2[] = { "hijk" };
+	char* ret = my_strcat(arr1, arr2);
+	printf("%s", ret);
+	return 0;
+}
