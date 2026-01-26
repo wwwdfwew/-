@@ -1,0 +1,3 @@
+﻿  text.cpp
+E:\代码克隆仓库\-\1-26\text.cpp(183,15): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  1-26.vcxproj -> E:\代码克隆仓库\-\1-26\x64\Debug\1-26.exe
